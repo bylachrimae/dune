@@ -1,0 +1,181 @@
+/* Sand color theme */
+
+body {
+    background-color: #F5EDE1; /* Sand color */
+    color: #333;
+    font-size: 16px; /* Text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #02467b;
+}
+
+.navbar, .header {
+    background-color: #F2D5BA; /* Light sand color for navbar and header */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Centers the logo horizontally */
+    height: 100px;
+}
+.carousel-inner .carousel-item img {
+  max-height: 500px;
+  width: auto;
+  margin: auto;
+}
+.article-photo {
+    width: 100%; /* Ensure photo takes full width of container */
+    max-width: 1297px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add margin to top */
+  }
+  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Adjust the number of lines to truncate */
+    -webkit-box-orient: vertical;
+  }
+  
+  .card {
+    /* Other card styles */
+    height: auto; /* Set a fixed height for all cards */
+    
+  }
+  
+  .card-body {
+    /* Other card body styles */
+    flex-grow: 1;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+  }
+  
+  .btn {
+    /* Other button styles */
+    align-self: auto;
+  }
+
+  .label-box {
+    width: max-content; /* Set width */
+    height: 33px; /* Set height */
+    background-color: #f0f0f0; /* Light colored background */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    margin-top: 10px; /* Add margin to top */
+  }
+  .label-text {
+    color: red; /* Text color */
+    font-size: 14px; /* Font size */
+    font-weight: bold; /* Bold font */
+  }
+  .article-section {
+    margin-top: 50px; /* Add margin from label box */
+    width: calc(100% - 40px); /* 2.5/3 width of page minus 20px for padding */
+    padding: 10px; /* Padding for the section */
+  }
+  
+  .article-title {
+    font-size: 36px; /* Set font size */
+    color: #02467b; /* Set color */
+    margin-bottom: 10px; /* Add margin below title */
+  }
+  
+  .article-content {
+    font-size: 18px; /* Set font size */
+    color: #59692a; /* Set color */
+  }
+
+  /* styles.css */
+
+
+  .comments-section {
+    margin-top: 30px; /* Add margin from article section */
+  }
+  
+  .comments-section .card {
+    border: none; /* Remove border */
+  }
+  
+  .comments-section .card-body {
+    padding: 20px; /* Add padding */
+  }
+  
+  .comments-section .card-title {
+    color: #59692a; /* Set text color */
+    font-size: 18px; /* Set font size */
+  }
+  
+  .comments-section form .form-group label {
+    color: #59692a; /* Set text color */
+    font-size: 14px; /* Set font size */
+  }
+  
+  .comments-section form .form-control {
+    font-size: 14px; /* Set font size */
+  }
+
+  /* styles.css */
+
+.comments-section {
+    margin-bottom: 40px; /* Add margin between comments-section and display-comments-box */
+  }
+  
+  .display-comments-box {
+    padding-top: 40px; /* Add padding to the top */
+  }
+  
+  .display-comments {
+    margin-top: 40px; /* Add margin between comments and display-comments-box */
+  }
+  
+  .display-comments .comment {
+    background-color: #f5f5f5; /* Set background color */
+    border: none; /* Remove border */
+    margin-bottom: 30px; /* Add margin between comments */
+  }
+  
+  .comment .card-body {
+    padding: 20px; /* Add padding */
+  }
+  
+  .comment .comment-name {
+    font-size: 16px; /* Set font size */
+    color: #02467b; /* Set color */
+    margin-bottom: 20px; /* Add margin below name */
+  }
+  
+  .comment .comment-date {
+    font-size: 14px; /* Set font size */
+    color: #02467b; /* Set color */
+    margin-bottom: 20px; /* Add margin below date */
+  }
+  
+  .comment .comment-content {
+    font-size: 14px; /* Set font size */
+    color: #59692a; /* Set color */
+  }
+  
+  .comment {
+    margin-bottom: 40px; /* Add margin between comment cards */
+  }
+
+  main {
+    margin-bottom: 40px; /* Add margin between main element and footer */
+  }
+
+  .banner {
+    background-color: #026467;
+    height: 320px;
+  }
+  
+  .banner .container {
+    padding-top: 120px;
+  }
+  
+  .category-title {
+    font-size: 48px;
+    color: #fff;
+  }

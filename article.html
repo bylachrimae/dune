@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container py-4">
+      <img src="./content/logo.gif" alt="Logo" class="logo">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <!-- Add more navbar links as needed -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-10" id="article-content">
+          <!-- Dummy Photo -->
+          <img  id="article-image" src="" alt="Article Photo" class="article-photo" style="height: min-content;">
+          <!-- Label Box -->
+          <div class="label-box">
+            <span id="category-label" class="label-text">Category</span>
+          </div>
+          <!-- Article Section -->
+          <section class="article-section">
+            <h1 id="article-title" class="article-title">Article Title</h1>
+            <div id="article-body" class="article-content">
+                <!-- Article Content Goes Here -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ultrices, vestibulum mauris eget,
+                    luctus quam. Mauris ultrices feugiat aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Nunc bibendum erat quis libero suscipit, sit amet dapibus ligula fermentum.
+                    Fusce quis augue felis. Nullam et metus eu dolor malesuada ultricies. In non mauris massa. Vivamus placerat
+                    nunc eget risus tempor fermentum. Mauris blandit nec lorem nec tempor. Sed aliquet ante nec massa suscipit
+                    venenatis. Phasellus auctor, libero ut tincidunt pharetra, felis odio blandit mi, eget hendrerit mauris
+                    libero ac nulla. Nulla consectetur mauris ac arcu venenatis, nec bibendum ex volutpat. Donec congue est
+                    quis nulla aliquam, id lacinia turpis rutrum. Nulla tincidunt purus sit amet nulla efficitur, nec venenatis
+                    purus dignissim.
+                </p>
+                <p>
+                    Phasellus rhoncus eros at nibh placerat, in tempor orci efficitur. Quisque vel arcu eget odio gravida
+                    placerat. Integer ut ultricies dolor. In nec tortor magna. Nulla id magna nec magna bibendum maximus eget
+                    at eros. Nam nec turpis id mi viverra venenatis. Maecenas eget tristique orci. Donec interdum nisl non nibh
+                    bibendum luctus. Vestibulum eget quam vitae enim ultricies cursus.
+                </p>
+            </div>
+        </section>
+          <section class="comments-section mt-4">
+            <!-- Leave a Comment Card -->
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title">Leave a Comment</h5>
+                <!-- Comment Form -->
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                  </div>
+                  <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" id="comment" rows="3" placeholder="Enter your comment"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-outline-secondary secondary-outlined">Post Comment</button>
+                </form>
+              </div>
+            </div>
+          </section>
+          <section class="display-comments-section">
+            <div class="card display-comments-card shadow">
+              <div class="card-body">
+                <!-- First Comment -->
+                <div class="card comment shadow">
+                  <div class="card-body">
+                    <h5 class="comment-name">John Doe</h5>
+                    <p class="comment-date">Posted on January 1, 2024</p>
+                    <p class="comment-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla ultrices, vestibulum mauris eget, luctus quam.</p>
+                  </div>
+                </div>
+                <!-- Second Comment -->
+                <div class="card comment shadow">
+                  <div class="card-body">
+                    <h5 class="comment-name">Jane Smith</h5>
+                    <p class="comment-date">Posted on January 2, 2024</p>
+                    <p class="comment-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc bibendum erat quis libero suscipit, sit amet dapibus ligula fermentum.</p>
+                  </div>
+                </div>
+                <!-- Add more comment cards as needed -->
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">© 2024 News Site. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="article.js"></script>
+</body>
+</html>
+
+

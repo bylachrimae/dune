@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive News Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container py-4">
+      <img src="./content/logo.gif" alt="Logo" class="logo">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#spice_trade_updates">Spice Trade Updates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#noble_house_politics">Noble House Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fremen_resistance_movement">Fremen Resistance Movement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#imperial_court_gossip">Imperial Court Gossip</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technology_advancements">Technology Advancements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ecological_developments">Ecological Developments</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Carousel -->
+  <section class="container mt-4">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="height: 500px;">
+        <div class="carousel-inner">
+            <a href="article.html?category=spice_trade_updates&article=struggle_for_stability" class="carousel-item active">
+                <img src="content/spice_trade_updates/struggle_for_stability/struggle_for_stability.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center justify-content-center caption-background" style="color: silver;">
+                    <h5>The Struggle for Stability: Challenges in the Spice Trade Under Emperor Paul's Rule</h5>
+                </div>
+            </a>
+            <a href="article.html?category=spice_trade_updates&article=spice_trade_chronicles" class="carousel-item">
+                <img src="content/spice_trade_updates/spice_trade_chronicles/spice_trade_chronicles.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center justify-content-center caption-background" style="color: silver;">
+                    <h5>Spice Trade Chronicles: Intrigues, Politics, and Scandals Amidst the Holy War Era</h5>
+                </div>
+            </a>
+            <!-- Add more carousel items for other articles -->
+            <a href="article.html?category=spice_trade_updates&article=spice_trade_prophecies" class="carousel-item">
+                <img src="content\spice_trade_updates\spice_trade_prophecies\spice_trade_prophecies.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center justify-content-center caption-background" style="color: silver;">
+                    <h5>Spice Trade Prophecies: The Future of the Imperium</h5>
+                </div>
+            </a>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+  </section>
+  <!-- Main Content -->
+  <main>
+    <div class="container mt-4">
+      <div class="row">
+          <!-- Left Column (Spice Trade Updates) -->
+          <div class="col-md-8">
+              <section id="spice_trade_updates">
+                  <h2 class="section-title">Spice Trade Updates</h2>
+                  <div class="row">
+                      <!-- Spice Trade Updates Articles -->
+                      <div class="col-md-4 mb-4">
+                          <!-- Article Card 1 -->
+                          <div class="card">
+                              <img src="content\spice_trade_updates\struggle_for_stability\struggle_for_stability.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">The Struggle for Stability: Challenges in the Spice Trade Under Emperor Paul's Rule</h5>
+                                  <p class="card-text">In the crucible of Paul Atreides' early reign, the spice trade emerged as a focal point of contention and conflict</p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="spice_trade_updates"
+                                    data-article="struggle_for_stability">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                          <!-- Article Card 1 -->
+                          <div class="card">
+                              <img src="content\spice_trade_updates\spice_trade_chronicles\spice_trade_chronicles.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">Spice Trade Chronicles: Intrigues, Politics, and Scandals Amidst the Holy War Era</h5>
+                                  <p class="card-text">During the early days of the Holy War under Emperor Paul Atreides, the spice trade became a hotbed of intrigue and scandal. </p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="spice_trade_updates"
+                                    data-article="spice_trade_chronicles">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                        <!-- Article Card 1 -->
+                        <div class="card">
+                            <img src="content\spice_trade_updates\spice_trade_prophecies\spice_trade_prophecies.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Spice Trade Prophecies: The Future of the Imperium</h5>
+                                <p class="card-text">As Emperor Paul Atreides solidifies his dominion over the Known Universe, whispers of prophecy swirl around the spice trade</p>
+                                <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="spice_trade_updates"
+                                    data-article="spice_trade_prophecies">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                      <!-- Add more cards for World News -->
+                  </div>
+              </section>
+
+              <section id="noble_house_politics">
+                  <h2 class="section-title">Noble House Politics</h2>
+                  <div class="row">
+                      <!-- Noble House Politics Articles -->
+                      <div class="col-md-4 mb-4">
+                          <!-- Article Card 1 -->
+                          <div class="card">
+                              <img src="content\noble_house_politics\fenring_and_metulli\fenring_and_metulli.gif" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">House Fenring and House Metulli: A Political Duel Unfolds</h5>
+                                  <p class="card-text">In the heart of the Imperium, the illustrious banners of Houses Fenring and Metulli unfurl, their ancient sigils emblazoned upon them, while their members, clad in traditional attire, gather with an air of gravitas. As the desert winds whisper secrets of impending conflict, the stage is set for a dramatic showdown between two titans of the Dune universe, each vying for supremacy in the political arena.
+                                  </p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="noble_house_politics"
+                                    data-article="fenring_and_metulli">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 mb-4">
+                        <!-- Article Card 2 -->
+                        <div class="card">
+                            <img src="content\noble_house_politics\noble_house_politics\noble_house_politics.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Noble House Politics: Intrigues, Scandals, and Resistance in the Shadow of the Holy War</h5>
+                                <p class="card-text">In the labyrinthine corridors of power within the noble houses of the Imperium, intrigue simmers beneath the veneer of aristocratic decorum. As the specter of the holy war looms ever larger, tensions escalate, alliances fracture, and scandals threaten to topple the fragile balance of power.</p>
+                                <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="noble_house_politics"
+                                    data-article="noble_house_politics">
+                                    Read More
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                      <!-- Article Card 3 -->
+                      <div class="card">
+                          <img src="content\noble_house_politics\small_houses\small_houses.gif" class="card-img-top" alt="...">
+                          <div class="card-body">
+                              <h5 class="card-title">The Small Houses' Perspective on the Holy War and Paul's Ascension</h5>
+                              <p class="card-text">In the tumultuous wake of Paul Atreides' ascent to the imperial throne and the onset of the Holy War, the voices of the lesser-known Houses Minor reverberate with a unique blend of awe, apprehension, and ambition. While the Great Houses dominate the political landscape of the Imperium, the Houses Minor, though planet-bound, wield influence and aspirations of their own.</p>
+                              <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="noble_house_politics"
+                                    data-article="small_houses">
+                                    Read More
+                                  </a>
+                          </div>
+                      </div>
+                  </div>
+                      <!-- Add more cards for Politics -->
+                  </div>
+              </section>
+          </div>
+          <!-- Right Column (Imperial Court Gossip) -->
+          <div class="col-md-4">
+              <section id="imperial_court_gossip">
+                  <h2 class="section-title">Imperial Court Gossip</h2>
+                  <div class="row">
+                      <!-- Imperial Court Gossip Articles -->
+                      <div class="col-md-12 mb-4">
+                          <!-- Article Card 1 -->
+                          <div class="card">
+                              <img src="content\imperial_court_gossip\scandal_unveiled\scandal_unveiled.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">Scandal Unveiled: Bene Gesserit Nobles Caught in Intrigue and Romance</h5>
+                                  <p class="card-text">In the opulent halls of the Bene Gesserit sisterhood, where secrets whisper in the shadows and power dances like a tantalizing mirage, a scandal of epic proportions has unfurled its wicked tendrils. Behind the facade of discipline and control, Bene Gesserit nobles have been ensnared in a web of intrigue, seduction, and forbidden love, sending shockwaves through the ranks of the sisterhood.</p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="imperial_court_gossip"
+                                    data-article="scandal_unveiled">
+                                    Read More
+                                </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <!-- Article Card 1 -->
+                        <div class="card">
+                            <img src="content\imperial_court_gossip\princess_feline_fury\princess_feline_fury.gif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">The Tale of Princess Irulan's Feline Fury: When Space Cat Meets Arrakis Worm</h5>
+                                <p class="card-text">In the dimly lit corridors of the imperial palace, a regal feline prowls with silent grace, her fur shimmering like midnight silk in the faint glow of torchlight. With emerald eyes ablaze and tail held high, she exudes an aura of untamed elegance and feline majesty.</p>
+                                <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="imperial_court_gossip"
+                                    data-article="princess_feline_fury">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                      <!-- Add more cards for Imperial Court Gossip -->
+                  </div>
+              </section>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+                <section id="fremen_resistance_movement">
+                    <h2 class="section-title">Fremen Resistance Movement</h2>
+                    <div class="row">
+                        <!-- Fremen Resistance Movement Articles -->
+                        <div class="col-md-12 mb-4">
+                            <!-- Article Card 1 -->
+                            <div class="card">
+                                <img src="content\fremen_resistance_movement\silent_storm\silent_storm.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">The Silent Storm: Fremen Resistance Echoes Across the Dunes</h5>
+                                    <p class="card-text">In the heart of the unforgiving desert of Arrakis, where the sands whisper secrets and the winds carry tales of defiance, a silent storm brews. It is a storm not of thunder and lightning, but of resilience and determination, embodied by the fiercely independent Fremen people.</p>
+                                    <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="fremen_resistance_movement"
+                                    data-article="silent_storm">
+                                    Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                          <!-- Article Card 2 -->
+                          <div class="card">
+                              <img src="content\fremen_resistance_movement\enduring_the_hardships\enduring_the_hardships.gif" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">Enduring the Hardships: Fremen in the Aftermath of Paul's Ascension</h5>
+                                  <p class="card-text">Amidst the shifting sands of Arrakis, the Fremen, stalwart guardians of the desert, find themselves caught in the tumultuous wake of the Holy War and the ascension of Paul Atreides to the imperial throne. For these resilient warriors, the aftermath of Paul's rise to power brings both triumph and tribulation, as they navigate a path fraught with hardship and uncertainty.</p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="fremen_resistance_movement"
+                                    data-article="enduring_the_hardships">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                        <!-- Add more cards for Fremen Resistance Movement -->
+                        <!-- Repeat this block for more articles -->
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section id="technology_advancements">
+                    <h2 class="section-title">Technology Advancements</h2>
+                    <div class="row">
+                        <!-- Technology Advancements Articles -->
+                        <div class="col-md-12 mb-4">
+                            <!-- Article Card 1 -->
+                            <div class="card">
+                                <img src="content\technology_advancements\technological_renaissance\technological_renaissance.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Technological Renaissance Under the Shadow of the Throne</h5>
+                                    <p class="card-text">In the wake of Emperor Paul Atreides' ascension to the imperial throne, the Known Universe stands witness to a remarkable era of technological innovation and advancement. While the Imperium undergoes a seismic shift in power dynamics, the House Ix, renowned for its mastery of technology, finds itself at the forefront of this new age.</p>
+                                    <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="technology_advancements"
+                                    data-article="technological_renaissance">
+                                    Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                          <!-- Article Card 2 -->
+                          <div class="card">
+                              <img src="content\technology_advancements\unrest_brews\unrest_brews.gif" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">Unrest Brews Amidst Technological Advancements: The Shadow of House Ix</h5>
+                                  <p class="card-text">In the wake of Emperor Paul's ascension to the imperial throne, whispers of unease reverberate throughout the Imperium, centered around the formidable House Ix. Renowned for their mastery of technology, House Ix's increasing influence in politics has sparked suspicions and fear among nobles across the empire.</p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="technology_advancements"
+                                    data-article="unrest_brews">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                        <!-- Add more cards for Technology Advancements -->
+                        <!-- Repeat this block for more articles -->
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-4">
+                <section id="ecological_developments">
+                    <h2 class="section-title">Ecological Developments</h2>
+                    <div class="row">
+                        <!-- Ecological Developments Articles -->
+                        <div class="col-md-12 mb-4">
+                            <!-- Article Card 1 -->
+                            <div class="card">
+                                <img src="content/ecological_developments/rebirth_of_arrakis/rebirth_of_arrakis.gif" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rebirth of Arrakis: Ecological Renaissance Under Emperor Paul's Rule</h5>
+                                    <p class="card-text">In the wake of Emperor Paul Atreides' ascension to the throne of the Imperium, the arid desert planet of Arrakis, once synonymous with harsh conditions and scarce resources, embarked on a remarkable journey of ecological transformation. Guided by prophecies and fueled by the aspirations of its people, Arrakis experienced a renaissance unlike any in its tumultuous history.</p>
+                                    <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="ecological_developments"
+                                    data-article="rebirth_of_arrakis">
+                                    Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-4">
+                          <!-- Article Card 2 -->
+                          <div class="card">
+                              <img src="content\ecological_developments\dilemma_of_water\dilemma_of_water.gif" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                  <h5 class="card-title">The Dilemma of Water: Arrakis' Perilous Thirst</h5>
+                                  <p class="card-text">In the wake of Paul Atreides' ascension to the imperial throne, the parched sands of Arrakis witness a surge in water consumption, stirring concerns among the Fremen elders. Despite their unwavering faith in Paul as the prophesied messiah, whispers of apprehension echo through the sietches, as wasteful habits threaten to disrupt the delicate balance of life on the desert planet.</p>
+                                  <a href="#" class="btn btn-outline-secondary secondary-outlined mt-3 read-more-btn"
+                                    data-category="ecological_developments"
+                                    data-article="dilemma_of_water">
+                                    Read More
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                        <!-- Add more cards for Ecological Developments -->
+                        <!-- Repeat this block for more articles -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">© 2024 News Site. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
